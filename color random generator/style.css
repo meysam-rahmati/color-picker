@@ -1,0 +1,34 @@
+@import "reset.css";
+
+
+/* range style */
+
+#generator{
+    background-color: #ccc;
+    width: 400px;
+    padding: 10px;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+
+#generator input[type="range"]{
+    width: 100%;
+}
+/* random btn style */
+
+#generator .btn{
+    text-align: center;
+}
+
+#generator .random-btn{
+    padding: 5px;
+    font-size: 15px;
+    background-color: rgb(165, 162, 162);
+    border: none;
+    border-radius: 5px;
+}
+#generator .random-btn:hover{
+    cursor: pointer;
+    background-color: rgb(109, 107, 107);
+}
+
